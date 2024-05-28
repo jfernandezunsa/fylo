@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href=".images/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
     />
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
@@ -35,16 +35,16 @@
   </head>
   <body class="text-sm sm:text-base">
     <nav class="flex justify-between mx-5 my-6 sm:max-w-[1280px] sm:m-auto">
-      <img class="h-[23px]" src="images/logo.svg" alt="Logo Filo" />
+      <img class="h-[23px]" src="/images/logo.svg" alt="Logo Filo" />
         <ul class="flex gap-x-5 text-[13px] font-['Raleway'] opacity-60">
           <li><a href="#">Features</a></li>
           <li><a href="#"></a>Team</a></li>
           <li><a href="#"></a>Sign In</a></li>
         </ul>
     </nav>
-<section class="mt-20 mx-5 gap-y-12 sm:flex sm:flex-row-reverse sm:max-w-[1280px] sm:mx-auto">
+<section class="mt-20 mx-5 gap-y-12 sm:flex sm:flex-row-reverse sm:max-w-[1000px] sm:mx-auto">
   <figure>
-    <img src="images/illustration-1.svg" alt="">
+    <img src="/images/illustration-1.svg" alt="">
   </figure>
   <div class="flex flex-col gap-y-6 sm:mx-2">
     <h1 class="text-2xl font-bold text-center tracking-tight">All your files in one secure location, accessible anywhere.</h1>
@@ -55,45 +55,45 @@
     </form>
   </div>
 </section>         
-<section class="mt-20 mx-5 flex flex-col gap-y-12 sm:gap-x-40 sm:flex sm:flex-row-reverse sm:max-w-[1440px] sm:mx-auto sm:p-20">
-  <figure class="basis-2/5">
-    <img src="images/illustration-2.svg" alt="">
+<section class="mt-20 mx-5 flex flex-col gap-y-12 sm:flex sm:flex-row-reverse sm:max-w-[1000px] sm:mx-auto">
+  <figure>
+    <img src="/images/illustration-2.svg" alt="">
   </figure>
-  <div class="flex flex-col gap-y-4 sm:gap-y-8 basis-3/5" >
-    <h2 class="text-[16px] sm:text-[36px] font-bold font-['Raleway'] text-center sm:text-left tracking-tight">Stay productive, wherever you are</h2>
-    <p class="sm:text-balance">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-    <p class="sm:text-balance">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-    <a href="#" class="mx-auto sm:mx-0 my-4 flex flex-initial pb-1 border-b-[1px] border-b-[#3C9F8F] w-[148px] sm:w-[175px] text-[#3C9F8F]"><span class="text-[13px] sm:text-[15px] tracking-tigh">See how Fylo works</span><img src="images/icon-arrow.svg" alt="" class="w-[20px] h-[20px] ms-2"></a>
+  <div class="flex flex-col gap-y-4">
+    <h2 class="text-[16px] font-bold font-['Raleway'] text-center tracking-tight">Stay productive, wherever you are</h2>
+    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+    <a href="#" class=" mx-auto my-4 flex flex-initial pb-1 border-b-[1px] border-b-[#3C9F8F] w-[148px] text-[#3C9F8F]"><span class="text-[13px] tracking-tigh">See how Fylo works</span><img src="/images/icon-arrow.svg" alt="" class="w-[20px] h-[20px] ms-2"></a>
     <div class="bg-white p-6 mx-6 mb-20 text-xs shadow-[0_5px_20px_-5px_rgba(88,89,137,0.4)]">
-      <img src="images/icon-quotes.svg" alt="">
+      <img src="/images/icon-quotes.svg" alt="">
       <p class="py-2 leading-4">Fylo has improved our team productivity by an order of
         magnitude. Since making the switch our team has become a well-oiled
         collaboration machine.
       </p>
       <div class="flex mt-2">
-        <img src="images/avatar-testimonial.jpg" alt="" class="w-[30px] h-[30px] rounded-full me-2">
+        <img src="/images/avatar-testimonial.jpg" alt="" class="w-[30px] h-[30px] rounded-full me-2">
         <p class="font-bold">Kyle Burton<span class="block text-[9px] font-normal">Founder & CEO, Huddle</span></p>
       </div>
     </div>
   </div>
 </section>
-<section class="bg-[#585989] text-white p-8 flex flex-col sm:flex sm:gap-x-40 sm:flex-row sm:max-w-[1440px] sm:mx-auto sm:p-20">
-  <div class="sm:text-left text-center basis-1/2">
-  <h2 class="text-[16px] sm:text-[32px] font-bold font-['Raleway']  p-4">Get early access today</h2>
-  <p class=" px-3 py-4 basis-1/2">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+<section class="bg-[#585989] text-white p-8 flex flex-col sm:flex sm:flex-row sm:max-w-[1440px] sm:mx-auto sm:p-20">
+  <div>
+  <h2 class="text-[16px] font-bold font-['Raleway'] text-center p-4">Get early access today</h2>
+  <p class="text-center px-3 py-4">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
   </p>
 </div>
-  <form action="" class="flex flex-col gap-y-3 sm:gap-y-4 mx-5 text-xs basis-1/2">
-    <input type="text" placeholder="email@example.com" class="border-2 border-gray-400 rounded p-2 sm:p-3 sm:rounded-md text-xs placeholder-gray-300">
-    <button class="p-2 bg-blue-600 rounded text-white text-xs sm:w-44 sm:p-3 sm:rounded-md">Get Started For Free</button>
+  <form action="" class="flex flex-col gap-y-3 mx-5 text-xs">
+    <input type="text" placeholder="email@example.com" class="border-2 border-gray-400 rounded p-2 text-xs placeholder-gray-300">
+    <button class="p-2 bg-blue-600 rounded text-white text-xs">Get Started For Free</button>
   </form>
 </section>
 <footer class="bg-[#070439] p-10 sm:p-20 text-white leading-10 flex flex-col gap-y-8 sm:grid sm:grid-cols-[30%_20%_20%_30%] sm:max-w-[1440px] sm:mx-auto">
-  <div class="col-span-4"><img class="h-[50px] w-[169px] mt-4" src="images/logo-dark.svg" alt="Logo Filo" /> </div>
+  <div class="col-span-4"><img class="h-[50px] w-[169px] mt-4" src="/images/logo-dark.svg" alt="Logo Filo" /> </div>
   <div>
     <ul>
-      <li><img src="images/icon-phone.svg" alt="" class="w-4 inline me-4">Phone: +1-543-123-4567</li>
-      <li><img src="images/icon-email.svg" alt="" class="w-4 inline me-4">example@fylo.com</li>
+      <li><img src="/images/icon-phone.svg" alt="" class="w-4 inline me-4">Phone: +1-543-123-4567</li>
+      <li><img src="/images/icon-email.svg" alt="" class="w-4 inline me-4">example@fylo.com</li>
     </ul>
   </div>
   <div>
@@ -113,13 +113,13 @@
   </div>
   <div class="flex gap-3 text-center place-content-center">
     <div class="w-[25px] h-[25px] sm:w-[32px] sm:h-[32px] rounded-full border-[1px] border-white ">
-      <img src="images/facebook.svg" alt="" class="w-[12px] sm:w-[16px] mx-auto mt-[5px] sm:mt-[7px]">
+      <img src="/images/facebook.svg" alt="" class="w-[12px] sm:w-[16px] mx-auto mt-[5px] sm:mt-[7px]">
     </div>
     <div class="w-[25px] h-[25px] sm:w-[32px] sm:h-[32px] rounded-full border-[1px] border-white ">
-      <img src="images/twitter.svg" alt="" class="w-[12px] sm:w-[16px] mx-auto mt-[5px] sm:mt-[7px]">
+      <img src="/images/twitter.svg" alt="" class="w-[12px] sm:w-[16px] mx-auto mt-[5px] sm:mt-[7px]">
     </div>
     <div class="w-[25px] h-[25px] sm:w-[32px] sm:h-[32px] rounded-full border-[1px] border-white ">
-      <img src="images/instagram.svg" alt="" class="w-[12px] sm:w-[16px] mx-auto mt-[5px] sm:mt-[7px]">
+      <img src="/images/instagram.svg" alt="" class="w-[12px] sm:w-[16px] mx-auto mt-[5px] sm:mt-[7px]">
     </div>
   </div>
 </footer>
