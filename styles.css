@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+  }
+  img{
+    width: 100%;
+    padding: 5px;
+    border: solid blue 5px;
+  }
+.gallery{
+    width:50%;
+    border: solid red 5px;
+  }
