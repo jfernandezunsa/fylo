@@ -149,7 +149,8 @@ html{
 .slider--background-color{
     height: 70vh;
     width: 100%;
-    background: radial-gradient(circle, rgba(5,31,67,0.7) 0%, rgba(5,31,67,1) 100%);
+    background: radial-gradient(circle, #051f4380 0%, #051f43 100%);
+    /* background: radial-gradient(circle, rgba(5,31,67,0.5) 0%, rgba(5,31,67,1) 100%); */
 }
 /* portada Principal*/
 .hero{
