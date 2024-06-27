@@ -25,7 +25,7 @@
 
 <body class="bg-gray-200 text-base">
   <!--  incio header -->
-  <div class="fixed w-full top-0 left-0">
+  <div class="fixed w-full top-0 left-0 z-50">
     <header class="bg-[#051F43] hidden sm:block sm:bg-blue-400  md:bg-red-400 lg:bg-green-500 xl:bg-[#051f43] p-3">
       <div class="text-white text-sm tracking-tight flex place-content-between sm:max-w-[1200px] sm:m-auto">
         <p class="flex gap-1">
@@ -97,7 +97,7 @@
     <!-- Bienvenida -->
     <div class="lg:max-w-[1200px] m-auto bg-white p-8 sm:p-[54px] md:p-[74px]">
       <h3
-        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-[#5E151E] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-red-500 before:mb-4 mb-5">
+        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-[#5E151E] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
         Presentación</h3>
       <p class="md:text-lg mb-4">
         En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
@@ -132,7 +132,7 @@
     <div
       class="lg:max-w-[1200px] m-auto bg-gradient-to-r from-[#5E151E] to-[#051F43] text-white p-8 sm:p-[54px] md:p-[74px]">
       <h3
-        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-white before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-red-500 before:mb-4 mb-5">
+        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-white before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
         Objetivos</h3>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 ">
         <div class="flex md:flex-col md:items-center gap-4 md:gap-0">
@@ -169,7 +169,7 @@
       <div class="h-80 sm:h-auto" style="background-image:url(./public/administracion-unsa.webp); background-size: cover;"></div>
       <div class="p-8 sm:p-[54px] md:p-[74px]">
       <h3
-        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-white before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-red-500 before:mb-4 mb-5">
+        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-white before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
         Sede</h3>
        <p class="md:text-lg mb-4">
             Incentivar la investigación y valorizar la incidencia de innovaciones de los participantes al congreso para
@@ -181,7 +181,7 @@
 <!-- inversion -->
     <div class="lg:max-w-[1200px] m-auto bg-white p-8 sm:p-[54px] md:p-[74px]">
       <h3
-        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-[#5E151E] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-red-500 before:mb-4 mb-5">
+        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-[#5E151E] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
         Inversión</h3>
         <div class="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div class="bg-[#051F4380] rounded-lg text-white">
@@ -217,23 +217,174 @@
     </div>
           </div>
     </div>
-    <!-- <header class="bg-[#051F43] hidden sm:block sm:bg-blue-400  md:bg-red-400 lg:bg-green-500 xl:bg-[#051f43] p-3"> -->
+    <!-- ejes tematicos-->
     <div
     class="lg:max-w-[1200px] m-auto bg-gradient-to-r from-[#5E151E] to-[#051F43] text-white p-8 sm:p-[54px] md:p-[74px]">
     <h3
-      class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-white before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-red-500 before:mb-4 mb-5">
+      class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-white before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
       Ejes Temáticos</h3>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
-      <div class="">
-        <img class="grayscale absolute w" src="./public/foto-unsa.jpg" alt="">
-        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 relative">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-1 mt-10">
+      <div class="relative">
+        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 w-full absolute bottom-0">
           <span class="material-symbols-outlined">arrow_circle_right</span>
-          <h5 class="font-['Montserrat'] font-semibold">Enfoque comparativo en la didáctica de la educación física cooperativa y la educación en valores</h5>
+          <h5 class="font-['Montserrat'] font-semibold shadow-md">Enfoque comparativo en la didáctica de la educación física cooperativa y la educación en valores</h5>
+        </div>
+        <img class="grayscale" src="./public/foto-unsa.jpg" alt="">
+      </div>
+      <div class="relative">
+        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 w-full absolute bottom-0">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          <h5 class="font-['Montserrat'] font-semibold shadow-md">Enfoque comparativo en la didáctica de la educación</h5>
+        </div>
+        <img class="grayscale" src="./public/foto-unsa.jpg" alt="">
+      </div>
+      <div class="relative">
+        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 absolute bottom-0">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          <h5 class="font-['Montserrat'] font-semibold">Enfoque comparativo en la didáctica de la educación</h5>
+        </div>
+        <img class="grayscale" src="./public/foto-unsa.jpg" alt="">
+      </div>
+      <div class="relative">
+        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 absolute bottom-0">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          <h5 class="font-['Montserrat'] font-semibold shadow-md">Enfoque comparativo en la didáctica de la educación</h5>
+        </div>
+        <img class="grayscale" src="./public/foto-unsa.jpg" alt="">
+      </div>
+      <div class="relative">
+        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 absolute bottom-0">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          <h5 class="font-['Montserrat'] font-semibold">Enfoque comparativo en la didáctica de la educación</h5>
+        </div>
+        <img class="grayscale" src="./public/foto-unsa.jpg" alt="">
+      </div>
+      <div class="relative">
+        <div class="flex gap-3 bg-gradient-to-b from-transparent to-black p-4 z-10 absolute bottom-0">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          <h5 class="font-['Montserrat'] font-semibold">Enfoque comparativo en la didáctica de la educación</h5>
+        </div>
+        <img class="grayscale" src="./public/foto-unsa.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  
+    <!-- Comisiones Organizadoras -->
+    <div class="lg:max-w-[1200px] m-auto bg-white p-8 sm:p-[54px] md:p-[74px]">
+      <h3
+        class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] text-[#5E151E] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
+        Comisiones Organizadoras</h3>
+        <div class="grid gap-y-10 gap-x-4 md:grid-cols-2 mt-8 md:text-lg divide-y divide-gray-500 [&>*]:pt-7">
+          <div class="flex flex-col gap-3 md:first:col-span-2">
+            <h5 class="font-extrabold font-['Montserrat'] text-lg">Comisión Central</h5>
+            <p>
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+            <ul>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-3 ">
+            <h5 class="font-extrabold font-['Montserrat'] text-lg">Comisión Central</h5>
+            <p>
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+            <ul>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h5 class="font-extrabold font-['Montserrat'] text-lg">Comisión Central</h5>
+            <p>
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+            <ul>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h5 class="font-extrabold font-['Montserrat'] text-lg">Comisión Central</h5>
+            <p>
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+            <ul>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+              <li>Texto Prueva</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <!-- ponentes -->
+      <div class="lg:max-w-[1200px] m-auto bg-[#051F43] p-8 sm:p-[54px] md:p-[74px] text-white">
+        <h3
+          class="text-[20px] md:text-[26px] font-extrabold font-['Montserrat'] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
+          Ponentes</h3>
+          <!-- <header class="bg-[#051F43] hidden sm:block sm:bg-blue-400  md:bg-red-400 lg:bg-green-500 xl:bg-[#051f43] p-3"> -->
+        <div class="grid sm:grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-3 lg:gap-16 lg:px-12 pt-7 ">
+          <div class="flex flex-col gap-4" >
+            <div class="w-full h-[350px] [&>*]:object-cover [&>*]:w-full [&>*]:h-full "><img src="./public/ponente-enfermeria001.jpg" alt=""></div>
+            <h5 class="text-xl font-extrabold font-['Montserrat']">Dra. Silvia Erendira Muñoz Ortiz</h5>
+            <h6 class="text-sm md:text-base font-bold font-['Montserrat'] text-balance">Universidad Iberoaméricana - Mexico </h6>
+            <p class="hidden md:block ">
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+          </div>
+          <div class="flex flex-col gap-4" >
+            <div class="w-full h-[350px] [&>*]:object-cover [&>*]:w-full [&>*]:h-full "><img src="./public/ponente-enfermeria001.jpg" alt=""></div>
+            <h5 class="text-xl font-extrabold font-['Montserrat']">Dra. Silvia Erendira Muñoz Ortiz</h5>
+            <h6 class="text-sm md:text-base font-bold font-['Montserrat'] text-balance">Universidad Iberoaméricana - Mexico </h6>
+            <p class="hidden md:block ">
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+          </div>
+          <div class="flex flex-col gap-4" >
+            <div class="w-full h-[350px] [&>*]:object-cover [&>*]:w-full [&>*]:h-full "><img src="./public/ponente-enfermeria001.jpg" alt=""></div>
+            <h5 class="text-xl font-extrabold font-['Montserrat']">Dra. Silvia Erendira Muñoz Ortiz</h5>
+            <h6 class="text-sm md:text-base font-bold font-['Montserrat'] text-balance">Universidad Iberoaméricana - Mexico </h6>
+            <p class="hidden md:block ">
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+          </div>
+          <div class="flex flex-col gap-4" >
+            <div class="w-full h-[350px] [&>*]:object-cover [&>*]:w-full [&>*]:h-full "><img src="./public/ponente-enfermeria001.jpg" alt=""></div>
+            <h5 class="text-xl font-extrabold font-['Montserrat']">Dra. Silvia Erendira Muñoz Ortiz</h5>
+            <h6 class="text-sm md:text-base font-bold font-['Montserrat'] text-balance">Universidad Iberoaméricana - Mexico </h6>
+            <p class="hidden md:block ">
+              En estos tiempos el mundo sufre una profunda transformación de sus paradigmas económicos, políticos, sociales,
+              culturales y tecnológicos, que afectan el comportamiento de organizaciones y empresas, a nivel mundial.</p>
+          </div>
         </div>
       </div>
 
-    </div>
-  </div>
+      <div class="lg:max-w-[1200px] m-auto bg-[#F3F4F5] p-8 sm:p-[54px] md:p-[74px]">
+        <h3
+          class="text-[20px] text-[#5E151E] md:text-[26px] font-extrabold font-['Montserrat'] before:content-[' '] before:w-[54px] before:h-[4px] before:block before:bg-[#D90B4F] before:mb-4 mb-5">
+          Contacto / Consultas</h3>
+          <!-- <header class="bg-[#051F43] hidden sm:block sm:bg-blue-400  md:bg-red-400 lg:bg-green-500 xl:bg-[#051f43] p-3"> -->
+        <div class="grid grid-cols-2 gap-4 pt-7 ">
+          <div class="mx-14">
+            <ul class="text-lg [&>*]:flex [&>*]:items-center [&>*]:text-balance">
+            <li><span class="material-symbols-outlined text-[40px] text-[#990537] mr-4 py-4">mail</span> fad_upg@unsa.edu.pe</li>
+            <li><span class="material-symbols-outlined text-[40px] text-[#990537] mr-4 py-4">phone_in_talk</span> +01 959644577</li>
+            <li><span class="material-symbols-outlined text-[40px] text-[#990537] mr-4 py-4">location_on</span>Campus Ingenierias Av. Venezuela s/n - Arequipa</li>
+            <li><span class="material-symbols-outlined text-[40px] text-[#990537] mr-4 py-4">location_on</span>Campus Ingenierias Av. Venezuela s/n - Arequipa</li>
+          </ul>
+        </div>
+          <div class="bg-white">
+            <form action="">
+            <input type="text" placeholder="dddddd">
+          </form></div>
+        </div>
+      </div>
+
   </main>
 </body>
 
